@@ -516,5 +516,17 @@ footer .text span a:hover{
     color:var(--primary-color);
   }
 }
-        
+
+a {
+    line-height:3em;
+    display: inline-block;
+    text-decoration: none;
+    padding:120;
+    margin: 42;
+}
+.media-icons a{
+  color:var(--primary-color);
+  font-size: 18px;
+  margin:0 6px;
+}  
       
