@@ -620,4 +620,5 @@ span:hover {
   left: 0;
   right: 0;
   z-index: auto;
+  opacity: 0.3;
 }

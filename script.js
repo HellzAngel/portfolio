@@ -25,6 +25,7 @@ var particles = Particles.init({
   ]
 });
 
+
 window.onscroll = function() {
   if(document.documentElement.scrollTop > 20){
     nav.classList.add("sticky");
