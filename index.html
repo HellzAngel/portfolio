@@ -3,6 +3,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <title> Ananthu A Nair | Developer  </title>
     <link rel="stylesheet" href="styles.css">
     <!-- Fontawesome CDN Link -->
@@ -11,6 +12,7 @@
      <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.min.js"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
    </head>
 <body>
+  <canvas class="background"></canvas>
   <!-- Move to up bottom -->
   <div class="scroll-button">
     <a href="#home"><i class="fas fa-arrow-up"></i></a>
@@ -21,11 +23,11 @@
     <div class="navbar">
       <div class="logo"><a href="#">Portfolio</a></div>
       <ul class="menu">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li class= "li"><a href="#home">Home</a></li>
+        <li class= "li"><a href="#about">About</a></li>
+        <li class= "li"><a href="#skills">Skills</a></li>
+        <li class= "li"><a href="#services">Services</a></li>
+        <li class= "li"><a href="#contact">Contact</a></li>
         <div class="cancel-btn">
           <i class="fas fa-times"></i>
         </div>
@@ -48,7 +50,7 @@
   <section class="home" id="home">
     <div class="home-content">
       <div class="text">
-        <canvas class="background"></canvas>
+        
         <div class="text-one">Hello,</div>
         <div class="text-two">          
           <h3 class="span loader">
@@ -70,9 +72,9 @@
         <div class="text-three">Full Stack Developer</div>
         <div class="text-four">From INDIA</div>
       </div>
-      <div class="button">
+      <!-- <div class="button">
         <button>Hire Me</button>
-      </div>
+      </div> -->
     </div>
   </section>
 
@@ -82,7 +84,7 @@
       <div class="title"><span>About Me</span></div>
       <div class="about-details">
         <div class="left">
-          <img src="images/ananthu.jpg" alt="Portfolio">
+          <!-- <img src="images/ananthu.jpg" alt="Portfolio"> -->
         </div>
         <div class="right">
           <div class="topic">Designing Is My Passion</div>
@@ -111,19 +113,51 @@
         <div class="boxes">
           <div class="box">
             <div class="topic">HTML</div>
-            <div class="per">90%</div>
+              <div class="green">
+                <div class="progress">
+                  <div class="inner">
+                    <div class="percent"><span>&nbsp;&nbsp;77</span>%</div>
+                    <div class="water"></div>
+                    <div class="glare"></div>
+                  </div>
+                </div>
+              </div>
           </div>
           <div class="box">
             <div class="topic">CSS</div>
-            <div class="per">80%</div>
+            <div class="green">
+              <div class="progress">
+                <div class="inner">
+                  <div class="percent"><span>&nbsp;&nbsp;60</span>%</div>
+                  <div class="water"></div>
+                  <div class="glare"></div>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="box">
             <div class="topic">Python</div>
-            <div class="per">70%</div>
+            <div class="green">
+              <div class="progress">
+                <div class="inner">
+                  <div class="percent"><span>&nbsp;&nbsp;77</span>%</div>
+                  <div class="water"></div>
+                  <div class="glare"></div>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="box">
             <div class="topic">Javascript</div>
-            <div class="per">60%</div>
+            <div class="green">
+              <div class="progress">
+                <div class="inner">
+                  <div class="percent"><span>&nbsp;&nbsp;25</span>%</div>
+                  <div class="water"></div>
+                  <div class="glare"></div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
