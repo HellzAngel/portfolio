@@ -194,8 +194,7 @@ section .title span{
   position:relative;
   padding-bottom:8px;
 }
-section .title span::before,
-section .title span::after{
+section .title span::before{
   content:'';
   position:absolute;
   height:3px;
