@@ -647,10 +647,10 @@ span:hover {
   height: 125px;
 }
 .green .progress {
-  border: 5px solid #53fc53;
+  border: 3px solid #53fc53;
 }
 .green .progress {
-  box-shadow: 0 0 20px #029502;
+  box-shadow: 0 0 15px #029502;
 }
 .green .progress,
 .red .progress,
@@ -794,10 +794,10 @@ span:hover {
   margin-top: 15px;
 }
 .orange .progress {
-  border: 5px solid #f07c3e;
+  border: 3px solid #f07c3e;
 }
 .orange .progress {
-  box-shadow: 0 0 20px #7e320a;
+  box-shadow: 0 0 15px #7e320a;
 }
 .orange .progress .inner .water {
   top: 50%;
